@@ -76,7 +76,7 @@ W pythonie nie możemy zmieniać elementów o typie string!
                     |
                    żle
 Funckja pow() wymaga min. 2 argumentów : liczbe i jej potęgę. 
-W przykładzie nie podano listy potęg\
+W przykładzie nie podano listy potęg:
     
     powers = 2, 2, 2, 2, 2, 2, 2, 2
     L = list(map(pow, range(8), powers))
