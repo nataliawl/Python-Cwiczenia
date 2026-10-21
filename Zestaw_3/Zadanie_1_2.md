@@ -68,3 +68,16 @@ Zły indeks - w listach indeksy są od 0 do n - 1, gdzie n to liczba elementów 
     X.append("d") <-- źle
 
 W pythonie nie możemy zmieniać elementów o typie string!
+
+## Zadanie 3.2.6
+
+    L = list(map(pow, range(8)))
+                    ^
+                    |
+                   żle
+Funckja pow() wymaga min. 2 argumentów : liczbe i jej potęgę. 
+W przykładzie nie podano listy potęg\
+    
+    powers = 2, 2, 2, 2, 2, 2, 2, 2
+    L = list(map(pow, range(8), powers))
+    print(L)
