@@ -52,7 +52,7 @@ Poprawnie:
     X = 1, 2, 3
     X[1] = 4 <-- źle
 
-Krotki sa niezmienne - raz przypisanej wartości nie zmienimy!
+Krotki są niezmienne - raz przypisanej wartości nie zmienimy!
 Jeśli chcemy moc zmieniać wartosci należy użyć listy
 
 ## Zadanie 3.2.4
